@@ -41,7 +41,7 @@ app.post("/api_response", (req, res) => {
 
   textapi.sentiment({ url }, (error, data) => {
     if (error) {
-      console.log(err);
+      console.log(error);
       return;
     }
     res.json(data);

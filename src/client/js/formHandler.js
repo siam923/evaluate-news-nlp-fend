@@ -2,7 +2,7 @@ function handleSubmit(url, btn) {
 
   console.log("::: Form Submitted :::")
 
-  fetch("/api_response", {
+  fetch("http://localhost:8081/api_response", {
     method: "POST",
     credentials: "same-origin",
     headers: { "Content-Type": "application/json" },
