@@ -8,7 +8,7 @@ describe("Is Valid Url", () => {
     ]
 
     urls.forEach((link) => {
-      expect(validURL(url)).toBeTruthy;
+      expect(validURL(link)).toBeTruthy;
     })
 
   })
@@ -20,7 +20,7 @@ describe("Is Valid Url", () => {
     ]
 
     urls.forEach((link) => {
-      expect(validURL(url)).toBeFalsy;
+      expect(validURL(link)).toBeFalsy;
     })
 
   })
